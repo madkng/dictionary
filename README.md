@@ -25,18 +25,44 @@ This tool provides an easy way to look up Spanish words, their translations, and
     pip install -r requirements.txt
     ```
 
+4. Set an environment variable named "api_key" with your gemini token
+    ```bash
+    export api_key="your_token"
+    ```
 ## Usage
 
 Basic usage:
 ```bash
-python src/dictionary.py <word>
+python src/dictionary.py -s <word>
+```
+```bash
+python src/dictionary.py -w
+```
+
+Add translation to english using AI:
+```bash
+python src/dictionary.py -s <word> -t
+```
+```bash
+python src/dictionary.py -w -t
 ```
 
 ### Examples
 
 Look up a Spanish word:
 ```bash
-python src/dictionary.py hola
+python src/dictionary.py -s perezoso
+```
+See the word of the day:
+```bash
+python src/dictionary.py -w
+```
+Translate the search result:
+```bash
+python src/dictionary.py -s perezoso -t
+```
+```bash
+python src/dictionary.py -w -t
 ```
 
 ## Features
