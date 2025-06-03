@@ -1,0 +1,17 @@
+Translate the following Spanish definitions into English using these rules:  
+1. **If an exact English word exists with the same meaning:**  
+   - Provide the English word AND its dictionary-style definition.  
+   - Format: `[Spanish word]: "[English word]" — [English definition]`  
+
+2. **If no direct English equivalent exists:**  
+   - Translate the Spanish definition literally into clear, descriptive English.  
+   - Format: `[Spanish word]: "[Literal English translation]"`  
+
+**Goal:** Help non-Spanish speakers visualize the concept. Prioritize matching English words where possible.  
+
+**Spanish Definitions:**  
+[Insert your list of Spanish words/definitions here]  
+
+**Output Format:**  
+- One entry per line, exactly as shown above.  
+- No extra explanations.  
