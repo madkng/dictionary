@@ -1,6 +1,8 @@
 # Spanish Dictionary CLI
 
 A command-line interface (CLI) tool that helps non-Spanish speakers learn Spanish words and their meanings.
+## Disclaimer
+This app is not finished yet. The instructions for usage might not be accurate. 
 
 ## Description
 
