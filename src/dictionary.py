@@ -145,9 +145,12 @@ class Dictionary:
                 intro = self.soup.find("div", class_="n2 c-text-intro").text
 
             else:
-                return "Word not found. Check spelling.", []
+                intro = ""
 
             definitions = self.soup.find_all("li", class_="j")
+
+            if not definitions:
+                return f"Word '{target}' not found in the dictionary. Check the spelling.", []
 
             return f"{target}:\n{intro}", "\n".join([definition.text for definition in definitions])
 
